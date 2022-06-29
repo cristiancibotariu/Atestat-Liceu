@@ -1,0 +1,80 @@
+#header {
+	background-color: black;
+	color:white;
+	text-align:center;
+	border-style: solid;
+}
+body{
+	background-color:black;
+	font-family: Helvetica, Arial, sans-serif; 
+}
+#container{
+	background-color:black;
+	width:800px;
+	margin-left:auto;
+	margin-right: auto;
+	height:1200px;
+}
+#content{
+	padding:10px;
+	background-color: black;
+}
+#nav{
+	position: fixed;
+	width:180px;
+	float:left;
+	color:white;
+	background-color: black;
+}
+#fundal{
+	width:1600px;
+	background-image:url("../poze/fundal4.jpg");
+	background-color:black;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	height:100%;
+}
+#main{
+	width:600px;
+	float:right;
+	color: white;
+	background-color: black;
+}
+#footer{
+	clear:both;
+	padding:10px;
+	background-color: black;
+	color:white;
+	text-align:right;
+	padding: 10px;
+	justify-content: flex-end;
+
+}
+.selected{
+	font-weight: bold;	
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+#nav ul{
+	list-style-type: none;
+	padding:0;
+
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+h1{
+	margin:0;
+}
+.fb{
+	width: 5%;
+	height: 5%;
+
+}
+.telefon{
+	width: 7%;
+	height: 7%;
+}
